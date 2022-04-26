@@ -67,7 +67,7 @@ async function run(){
 run().catch(console.dir)
  
 app.get('/',async(req,res)=>{
-    res.send('CURD is start')
+    res.send('CURD is running')
 })
 
 app.listen(port,()=>{console.log('CURD is running')})
